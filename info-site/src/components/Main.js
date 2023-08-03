@@ -2,6 +2,14 @@ import React from 'react';
 
 export default function Main(){
     return(
-        <h1>This is Main</h1>
+        <div className="MainContent">
+            <h2>Fun Facts about React</h2>
+            <ul>
+                <li>Developed by facebook</li>
+                <li>Provides resuable components</li>
+                <li>Trending tech stack</li>
+                <li>Huge community for support</li>
+            </ul>
+        </div>
     )
 }
